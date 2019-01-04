@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  font-size:20pt;
+  background-color: lime;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+span.selected{
+  background-color: rgb(238, 238, 238);
+  color: rgb(221, 221, 221);
+  cursor: not-allowed;
+
+}
